@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HTML Tables allow web developers to arrange data into rows and columns 
+     Table Tags:
+                <table></table> for creating a table
+                <tr> table row
+                <th> table header
+                <tr> table row
+                <td> table data
+                <caption> defines the table caption
+                <colgroup> specifies a group of one or more columns in a table for formating 
+                <thead>  groups the header content in a table 
+                <tbody> groups the body content in a table comes after the <thead> tag
+                <tfoot> groups the footer content in a table 
+
+                NB: the tags must have colosing tags
+                 -->
+    <div class="wrapper">
+    <table class="table-content">
+        <caption  class="table-caption">Competion</caption>
+        <thead>
+       <tr>
+        <th>Rank</th>
+        <th>Name</th>
+        <th>Points</th>
+        <th>Team</th>
+       </tr>  
+       </thead>
+       <tbody>
+        <tr>
+            <td>1</td>
+            <td>Chris</td>
+            <td>98</td>
+            <td>Away</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Sally</td>
+            <td>88</td>
+            <td>Home</td>
+        </tr>
+        <tr class="active-row">
+            <td>3</td>
+            <td>Mary</td>
+            <td>80</td>
+            <td>Home</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Nick</td>
+            <td>78</td>
+            <td>Away</td>
+        </tr>
+       </tbody>
+    </table> 
+    </div> 
+</body>
+</html>
